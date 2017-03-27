@@ -36,7 +36,7 @@ import { ContactComponent } from './contact/contact.component';
     FormsModule,
     HttpModule,
     RouterModule.forRoot([
-      { path: 'index', component: HomeComponent },
+      { path: '', component: HomeComponent },
       { path: 'projects', component: ProjectsComponent },
       { path: 'project1', component: Project1Component },
       { path: 'project2', component: Project2Component },

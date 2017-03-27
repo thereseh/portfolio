@@ -10,9 +10,7 @@ export class AppComponent {
   title = 'Therese Henriksson';
   constructor(private router: Router) { }
 
-  redirect(pagename) {
-    
-    console.log(pagename);
-    this.router.navigate(['/'+pagename]);
+  redirect() {
+    this.router.navigate(['/']);
   }
 }

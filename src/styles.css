@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond|Heebo|Lobster');
 
-
 /* ===== HEADER ===== */
-
 header {
   text-align: left;
   padding: 50px 50px 20px 50px;
@@ -82,6 +80,40 @@ header {
   transform: scaleX(1);
 }
 
+@media screen and (min-width: 320px) and (max-width: 740px) {
+  header {
+    text-align: center;
+    padding: 10% 10% 3% 10%;
+    margin: 0;  
+  }
+  #topNav {
+    display: block;
+  }
+  .nameWrap {
+    display: none;
+  }
+  .nameWrap .name {
+    font-size: 30px;
+  }
+  .linkWrap {
+    padding-top: 5px;
+    margin: 0;
+    text-align: center;
+    align-content: center;
+    float: none;
+  }
+  
+  #topIcons {
+  display: none;
+}
+
+  #topNav .linkWrap > li {
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
 
 /* ===== BODY ===== */
 
@@ -94,6 +126,10 @@ body {
   font-family: 'EB Garamond', serif;
 }
 
+.loader {
+  align-content: center;
+  margin: 0;
+}
 
 #main {
   padding-top: 20px;
@@ -125,11 +161,14 @@ body {
 }
 #home > .container > h2{
   font-size: 30px;
+  margin-top: 0px;
+  margin-bottom: 20px;
   font-family: 'Heebo', sans-serif;
-  white-space: pre-line;
 }
 #home > .container > h3{
   font-size: 25px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   font-family: 'Heebo', sans-serif;
   white-space: pre-line;
 }
@@ -137,8 +176,8 @@ body {
   font-size: 25px;
   font-family: 'Heebo', sans-serif;
   text-decoration: none;
-  color: black;
-  padding-bottom: 2px;
+  color: darkorange;
+  padding-bottom: 0px;
   position: relative;
 }
 
@@ -149,7 +188,7 @@ body {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: darkorange;
+  background-color: black;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
@@ -159,7 +198,7 @@ body {
 
 #home > .container > h3 > a:hover:before
 {
-  color:darkorange;
+  color:black;
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
@@ -344,6 +383,28 @@ body {
   }
 }
 
+.carousel-caption {
+  right: 0;
+  left: 0;
+  bottom: 0px;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  visibility: hidden;
+  font-family: 'Heebo', sans-serif;
+  }
+
+@media (hover:none), (hover:on-demand) { 
+ .carousel-caption {
+  right: 0;
+  left: 0;
+  bottom: 0px;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  visibility: visible;
+  font-family: 'Heebo', sans-serif;
+  }
+}
+
 .grid-item {
   display: inline-block;
   box-shadow: 1px 1px 2px #f8f8f8;
@@ -362,15 +423,6 @@ body {
 #carousel1 {
   height: auto;
   position: relative;
-}
-.carousel-caption {
-  right: 0;
-  left: 0;
-  bottom: 0px;
-  padding: 0;
-  background-color: rgba(0, 0, 0, 0.4);
-  visibility: hidden;
-  font-family: 'Heebo', sans-serif;
 }
 
 #carousel1:hover .carousel-caption {

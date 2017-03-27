@@ -2,6 +2,10 @@
   "name": "portfolio-directory",
   "version": "0.0.0",
   "license": "MIT",
+  "engines": {
+    "node": "7.4.0",
+    "npm": "4.0.5"
+  },
   "scripts": {
     "ng": "ng",
     "build": "ng build",

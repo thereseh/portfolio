@@ -1,0 +1,28 @@
+<header>
+<div id="topNav">
+  <div class="nameWrap">
+  <h1 (click)="redirect('index')" class="name" style="display:block;">let's code
+    something</h1>
+  </div>
+  <div class="linkWrap">
+  <li><a routerLink="/about">About</a></li>
+  <li><a routerLink="/projects">Projects</a></li>
+  <li><a href="/contact">Contact</a></li>
+  <li><a href="https://drive.google.com/file/d/0B93rh90A8hU7bGdWWG0wUUc3VjQ/view?usp=sharing" target="_blank">Resume</a></li>
+  <div id="topIcons">
+    <a href="https://github.com/thereseh" target="_blank"><img src="./assets/images/github.png" width="40px" height="auto" alt="github"></a>
+  </div>
+  </div>
+</div>
+</header>
+<section id="main">
+<!--><app-home></app-home>-->
+<router-outlet></router-outlet>
+</section>
+<footer>
+  <div id="footer">
+  <li><p>tah5279@rit.edu | </p></li>
+  <li><p>310.980.8329 | </p></li>
+  <li><a href="https://drive.google.com/file/d/0B93rh90A8hU7bGdWWG0wUUc3VjQ/view?usp=sharing" target="_blank">Resume</a></li>
+  </div>
+</footer>

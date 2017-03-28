@@ -1473,15 +1473,6 @@ footer {
   }
   
 /* ===== ABOUT ===== */
-
-  #contact {
-    min-height: 100%;
-  }  
-  #contact > .container {
-    padding: 100px 0 100px 0;
-    text-align: center;
-    min-height: 100%;
-  }
   
   #info > h1 {
     text-align: left;
@@ -1631,20 +1622,21 @@ footer {
   
   /* ===== CONTACT ===== */
   
-  
-  #contact {
+   #contact {
+    min-height: 100%;
     padding-bottom: 80px;
   }  
   #contact > .container {
     padding: 100px 0 100px 0;
     text-align: center;
-    height: 100%;
+    min-height: 100%;
   }
+  
   #contact > .container > h1{
     font-size: 3.2em;
     margin-bottom: 20px;
     color: #000000;
-    text-shadow: 3px 3px #ff9933;
+    text-shadow: 2px 2px #ff9933;
     font-family: 'Heebo', sans-serif;
   }
   #contact > .container > h2{
@@ -1838,15 +1830,6 @@ footer {
   }
   
 /* ===== ABOUT ===== */
-
-  #contact {
-    min-height: 100%;
-  }  
-  #contact > .container {
-    padding: 100px 0 100px 0;
-    text-align: center;
-    min-height: 100%;
-  }
   
   #info > h1 {
     text-align: left;
@@ -1991,20 +1974,21 @@ footer {
   
   /* ===== CONTACT ===== */
   
-  
   #contact {
+    min-height: 100%;
     padding-bottom: 70px;
   }  
   #contact > .container {
     padding: 100px 0 100px 0;
     text-align: center;
-    height: 100%;
+    min-height: 100%;
   }
+ 
   #contact > .container > h1{
     font-size: 3em;
     margin-bottom: 20px;
     color: #000000;
-    text-shadow: 3px 3px #ff9933;
+    text-shadow: 2px 2px #ff9933;
     font-family: 'Heebo', sans-serif;
   }
   #contact > .container > h2{

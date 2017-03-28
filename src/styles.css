@@ -5,14 +5,20 @@
 
 /* ===== HEADER ===== */
 body {
-  font-size: 100%;
+  font-size: 1em;
   line-height: 1em;
   height: 100%;
+  text-align: center;
+  align-content: center;
+  margin: auto;
+  position: relative;
+  background-color: white;
+  font-family: 'EB Garamond', serif;
 }
 
 header {
   text-align: left;
-  padding: 50px 50px 20px 50px;
+  padding: 50px 8% 20px 8%;
   margin: 0;  
 }
 
@@ -131,14 +137,6 @@ header {
 
 /* ===== BODY ===== */
 
-body {
-  text-align: center;
-  align-content: center;
-  margin: auto;
-  position: relative;
-  background-color: white;
-  font-family: 'EB Garamond', serif;
-}
 
 .loader {
   align-content: center;
@@ -146,13 +144,13 @@ body {
 }
 
 #main {
-  padding-top: 20px;
+  padding-top: 10px;
   background-color: white;
   align-content: center;
   text-align: center;
   margin: auto;
   box-shadow: 2px 2px 3px #f2f2f2;
-  padding: 0 50px 20px 50px;
+  padding: 0 8% 20px 8%;
   height: auto;
 }
 
@@ -241,6 +239,10 @@ body {
 
 /* ABOUT */
 
+#about > .container {
+  padding-right: 5%;
+}
+
 #info > h1 {
   text-align: left;
   font-size: 25px/55px;
@@ -254,7 +256,7 @@ body {
 }
 
 #info {
-  margin-right: 20%;
+  margin-right: 10%;
 }
 
 #info > p {
@@ -338,10 +340,11 @@ body {
 }
 #pimg {
   width: 50%;
-  padding-top: 45px;
+  padding-top: 10px;
   display: inline-block;
   float: right;
   text-align: center;
+  vertical-align: top;
 } 
 #pimg > img {
   box-shadow: 2px 2px 3px gray;
@@ -350,6 +353,7 @@ body {
   font-size: 3em;
   font-family: 'Heebo', sans-serif;
   color: black;
+  margin: 0;
   padding-bottom: 20px;
 } 
 #pimg > h2 {
@@ -537,6 +541,417 @@ footer {
   transform: scaleX(1);
 }
 
+@media only screen and (max-width: 810px) {
+  
+  /* === HEADER === */
+  html {
+    position: relative;
+    min-height: 100%;
+    vertical-align: middle;
+  }
+  body {
+    font-size: 1em;
+    line-height: 1em;
+    margin: 0 0 50px;
+    min-height:100%;
+  }
+  header {
+    text-align: left;
+    padding: 0px 10px 5px 10px;
+    margin: 0;  
+  }
+
+  .nameWrap {
+    float: left;
+    margin-left: 5%; 
+  }
+  .nameWrap .name {
+    white-space: pre-line;
+    font-family: 'Lobster', cursive;
+    text-align: left;
+    font-size: 4em;
+    margin: 0;
+  }
+  .linkWrap {
+    padding: 0;
+    margin: 50px 0 0 0;
+    text-align: center;
+    align-content: center;
+    height: 60px;
+    width: 100%;
+  }
+  
+  #topNav {
+    padding-top: 10%;
+    width: 100%;
+    display: block;
+    float: none;
+    text-align: center;
+    align-content: center;
+  }
+
+  #topIcons {
+    padding-left: 15px;
+    display: inline-block;
+    float: none;
+  }
+  #topIcons > a > img {
+    width: 60px;
+    height: auto;
+  }
+  
+  #topNav .linkWrap > li {
+    font-size: 2.9em;
+    float: none;
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+    vertical-align:middle;
+  }
+  
+  #topNav .linkWrap > li > a{
+    font-family: 'Heebo', sans-serif;
+    text-decoration: none;
+    color: black;
+    padding-bottom: 3px;
+    position: relative;
+  }
+
+  #topNav .linkWrap > li > a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: darkorange;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  
+  #topNav .linkWrap > li > a:hover:before
+  {
+    color:darkorange;
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+
+  #main {
+    padding: -30px 0 0 0;
+    min-height: 100%;
+    height: inherit;
+  }
+
+  #home > .container {
+    padding: 30px;
+    text-align: center;
+    margin: 90px 0 120px 0;
+  }
+  
+  #home > .container > h1{
+    font-size: 20em;
+    color: #000000;
+    text-shadow: 3px 3px #ff9933;
+    font-family: 'Heebo', sans-serif;
+  }
+  #home > .container > h2{
+    font-size: 4.3em;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    line-height: 1.2em;
+    font-family: 'Heebo', sans-serif;
+  }
+  #home > .container > h3{
+    font-size: 3.2em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 1.3em;
+    font-family: 'Heebo', sans-serif;
+    white-space: pre-line;
+  }
+  #home > .container > h3 > a{
+    font-size: 1em;
+    font-family: 'Heebo', sans-serif;
+    text-decoration: none;
+    color: darkorange;
+  }
+  
+  #home > .container > h3 > a:before {
+  }
+  
+  #home > .container > h3 > a:hover:before
+  {
+    color:black;
+  }
+  
+/* ===== ABOUT ===== */
+
+  #contact {
+    min-height: 100%;
+  }  
+  #contact > .container {
+    padding: 100px 0 100px 0;
+    text-align: center;
+    min-height: 100%;
+  }
+  
+  #info > h1 {
+    text-align: left;
+    font-size: 5em;
+  }
+
+  #info > h1:after {
+    content:' ';
+    display:block;
+    width: 100%;
+    border:1px solid darkorange;
+  }
+
+  #info {
+    width: 100%;
+  }
+  
+  #info > p {
+    font-size: 2.6em;
+    line-height: 1.4em;
+    white-space: pre-line;
+    text-align: left;
+  }
+  #info > h2 {
+    font-size: 1.4em;
+    line-height: 1.4em;
+    font-family: 'Heebo', sans-serif;
+    text-align: left;
+  }
+  #info > h3 {
+    font-size: 2.4em;
+    line-height: 1.4em;
+    font-family: 'Heebo', sans-serif;
+    text-align: center;
+    margin-top: 0;
+  }
+  
+  #selfInfo {
+    float: left;
+    display: block;
+    height: auto;
+    width: 100%;
+  }
+
+  #selfImage{
+    width: 100%;
+    display: block;
+    align-content: center;
+  }
+  
+  #selfImage > img{
+    margin-top: 20px;
+    width: 50%;
+    align-content: center;
+    height: auto;
+  }
+  
+  /* ===== PROJECT ===== */
+  
+  #project {
+    padding: 30px 0 0 0;
+    margin: auto;
+    align-content: center;
+    text-align: center;
+  }
+
+  #projWrapper {
+    width: 100%;
+     align-content: center;
+    text-align: center;
+     margin: 0 auto;
+  }
+  
+   #columns {
+    -webkit-column-count:2;
+    -moz-column-count: 2;
+    column-count: 2;
+    align-content: center;
+    text-align: center;
+     margin: 0 auto;
+  }
+  
+  .grid-item {
+    display: inline-block;
+    box-shadow: 1px 1px 2px #f8f8f8;
+    border: 1px solid #f8f8f8;
+    margin: 10px 5px 10px 5px;
+    -webkit-column-break-inside: avoid;
+    column-break-inside: avoid;
+    opacity: 1;
+    padding: 5px;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -o-transition:all .2s ease;
+  }
+  
+  .carousel-caption {
+    right: 0;
+    left: 0;
+    bottom: 0px;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    visibility: visible;
+    font-family: 'Heebo', sans-serif;
+  }
+
+  
+  .projWrapper1 {
+    width: 100;
+    padding-top: 30px;
+    text-align: left;
+    margin: 0 0 0 0;
+  }
+  
+  #pg {
+    width: 100%;
+  }
+  
+  #pg > h1 {
+    width: auto;
+    margin: 0;
+    font-family: 'Heebo', sans-serif;
+    font-size: 5em;
+    padding-bottom: 3px;
+  }
+  #pg > p {
+    font-size: 2.8em;
+    line-height: 1.4em;
+  }
+  #pg > h2 {
+    line-height: 1.4em;
+    font-family: 'Heebo', sans-serif;
+    font-size: 2.8em;
+  }
+  
+  #pg > h1:after {
+    content:' ';
+    display:block;
+    width: 100%;
+    border:2px solid darkorange;
+  }
+  #pimg {
+    width: 100%;
+    padding-top: 10px;
+    display: block;
+    text-align: center;
+  } 
+  #pimg > img {
+    box-shadow: 2px 2px 3px gray;
+  } 
+  #pimg > h1 {
+    font-size: 3.2em;
+    font-family: 'Heebo', sans-serif;
+    color: black;
+    padding-bottom: 10px;
+  } 
+  #pimg > h2 {
+    font-size: 2.6em;
+    font-family: 'Heebo', sans-serif;
+    color: black;
+  } 
+  #pimg > h1 > a{
+    font-size: 1.2em;
+    font-family: 'Heebo', sans-serif;
+    text-decoration: none;
+    color: black;
+  } 
+  #pimg > h1 >a:hover {
+    color: darkorange;
+  } 
+  
+  /* ===== CONTACT ===== */
+  
+  
+  #contact {
+    padding-bottom: 70px;
+  }  
+  #contact > .container {
+    padding: 230px 0 200px 0;
+    text-align: center;
+    height: 100%;
+  }
+  #contact > .container > h1{
+    font-size: 6em;
+    margin-bottom: 20px;
+    color: #000000;
+    text-shadow: 2px 2px #ff9933;
+    font-family: 'Heebo', sans-serif;
+  }
+  #contact > .container > h2{
+    padding: 0px;
+    margin: 0;
+    line-height: 1.2em;
+    font-size: 2.9em;
+    font-family: 'Heebo', sans-serif;
+  }
+  #or {
+    font-size: 1em;
+    margin: 0;
+  }
+  
+  
+  /* ===== FOOTER ===== */
+  
+  
+  footer {
+    margin: 30px 0 0 0;
+  }
+  
+  #footer {
+    height: 60px;
+    position: absolute;
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    font-family: 'Heebo', sans-serif;
+  }
+
+  #footer > li {
+    font-size: 2.5em;
+    float: none;
+    display: inline-block;
+  }
+  
+  #footer > li > a{
+    text-decoration: none;
+    color: black;
+    padding-bottom: 3px;
+    position: relative;
+  }
+  
+  #footer > li > a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: darkorange;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  
+  #footer > li > a:hover:before
+  {
+    color:darkorange;
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }  
+}
 @media only screen and (max-width: 740px) {
   
   /* === HEADER === */
@@ -928,9 +1343,10 @@ footer {
   
   /* === HEADER === */
   header {
-  text-align: left;
-  padding: 10px 10px 5px 10px;
-  margin: 0;  
+    text-align: left;
+    padding: 10px 10px 0 10px;
+    margin: 0;
+    height: auto;
   }
   
   .nameWrap {
@@ -949,6 +1365,7 @@ footer {
     margin: 0 auto;
     text-align: center;
     align-content: center;
+    height: auto;
   }
   
   #topNav {
@@ -961,7 +1378,6 @@ footer {
   }
 
   #topIcons {
-    padding-top: -30px;
     padding-left: 10px;
     display: inline-block;
     float: none;
@@ -1011,12 +1427,11 @@ footer {
   }
 
   #main {
-    padding: 0 20px 10px 20px;
+    padding: 0 20px -50px 20px;
     height: 100%;
-    padding-bottom: -50px;
   }
   #home > .container {
-    padding: 30px;
+    padding: 0 30px 0 30px;
     text-align: center;
     margin: 30px 0 20px 0;
   }
@@ -1128,9 +1543,13 @@ footer {
   
   .projWrapper1 {
     width: 100;
-    padding-top: 10px;
+    padding-top: 5px;
     text-align: left;
-    margin: 0 0 0 0;
+    margin: 0;
+  }
+  
+  #project {
+    padding: 0;
   }
   
    #columns {
@@ -1154,6 +1573,7 @@ footer {
   
   #pg {
     width: 100%;
+    text-align: center;
   }
   
   #pg > h1 {

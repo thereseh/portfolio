@@ -16,6 +16,7 @@ import { Project5Component } from './project5/project5.component';
 import { Project6Component } from './project6/project6.component';
 import { ContactComponent } from './contact/contact.component';
 import { Project7Component } from './project7/project7.component';
+import { Project8Component } from './project8/project8.component';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import { Project7Component } from './project7/project7.component';
     Project5Component,
     Project6Component,
     ContactComponent,
-    Project7Component
+    Project7Component,
+    Project8Component
   ],
   imports: [
     BrowserModule,
@@ -47,6 +49,7 @@ import { Project7Component } from './project7/project7.component';
       { path: 'project5', component: Project5Component },
       { path: 'project6', component: Project6Component },
       { path: 'project7', component: Project7Component },
+      { path: 'project8', component: Project8Component },
       { path: 'about', component: AboutComponent },
       { path: 'contact', component: ContactComponent }
     ]),

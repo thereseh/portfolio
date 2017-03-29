@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, AfterViewInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 
@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
   templateUrl: './projects.component.html',
   styleUrls: ['./projects.component.css']
 })
-export class ProjectsComponent implements OnInit {
+export class ProjectsComponent implements AfterViewInit {
 
   constructor(private router: Router) { }
 
@@ -17,7 +17,10 @@ export class ProjectsComponent implements OnInit {
     console.log(pagename);
     this.router.navigate(['/'+pagename]);
   }
-  ngOnInit() {
+  ngAfterViewInit() {
+    setTimeout(() => {
+        console.log('View is fully loaded');
+    }, 0);
   }
   
 }

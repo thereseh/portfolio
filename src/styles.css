@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond|Heebo|Lobster');
 
-
-
-
 /* ===== HEADER ===== */
+
 body {
   font-size: 1em;
   line-height: 1em;
@@ -19,15 +17,15 @@ body {
 header {
   text-align: left;
   padding: 50px 8% 2% 8%;
-  margin: 0;  
+  margin: 0;
 }
 
 .nameWrap {
   display: inline-block;
   float: left;
   margin-left: 20px;
-  
 }
+
 .nameWrap .name {
   white-space: pre-line;
   font-family: 'Lobster', cursive;
@@ -35,6 +33,7 @@ header {
   margin: 0;
   cursor: pointer;
 }
+
 .loader {
   padding-top: 100px;
   align-content: center;
@@ -61,7 +60,7 @@ header {
   cursor: pointer;
 }
 
-#topNav .linkWrap > li {
+#topNav .linkWrap>li {
   font-size: 18px;
   float: none;
   display: inline-block;
@@ -69,7 +68,7 @@ header {
   margin-right: 20px;
 }
 
-#topNav .linkWrap > li > a{
+#topNav .linkWrap>li>a {
   font-family: 'Heebo', sans-serif;
   text-decoration: none;
   color: black;
@@ -77,7 +76,7 @@ header {
   position: relative;
 }
 
-#topNav .linkWrap > li > a:before {
+#topNav .linkWrap>li>a:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -92,13 +91,13 @@ header {
   transition: all 0.3s ease-in-out 0s;
 }
 
-#topNav .linkWrap > li > a:hover:before
-{
-  color:darkorange;
+#topNav .linkWrap>li>a:hover:before {
+  color: darkorange;
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
+
 
 /* ===== BODY ===== */
 
@@ -119,33 +118,40 @@ header {
 }
 
 #home {
-   padding-bottom: 40px;
+  padding-bottom: 40px;
 }
+
+
 /* HOME */
-#home > .container {
+
+#home>.container {
   padding: 30px 30px 0 30px;
   text-align: center;
 }
-#home > .container > h1{
+
+#home>.container>h1 {
   font-size: 100px;
   color: #000000;
   text-shadow: 3px 3px #ff9933;
   font-family: 'Heebo', sans-serif;
 }
-#home > .container > h2{
+
+#home>.container>h2 {
   font-size: 30px;
   margin-top: 0px;
   margin-bottom: 20px;
   font-family: 'Heebo', sans-serif;
 }
-#home > .container > h3{
+
+#home>.container>h3 {
   font-size: 25px;
   margin-top: 0px;
   margin-bottom: 0px;
   font-family: 'Heebo', sans-serif;
   white-space: pre-line;
 }
-#home > .container > h3 > a{
+
+#home>.container>h3>a {
   font-size: 25px;
   font-family: 'Heebo', sans-serif;
   text-decoration: none;
@@ -154,7 +160,7 @@ header {
   position: relative;
 }
 
-#home > .container > h3 > a:before {
+#home>.container>h3>a:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -169,9 +175,8 @@ header {
   transition: all 0.3s ease-in-out 0s;
 }
 
-#home > .container > h3 > a:hover:before
-{
-  color:black;
+#home>.container>h3>a:hover:before {
+  color: black;
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
@@ -179,56 +184,62 @@ header {
 
 
 /* CONTACT */
-#contact > .container {
+
+#contact>.container {
   padding: 60px;
   text-align-last: center;
 }
-#contact > .container > h1{
+
+#contact>.container>h1 {
   font-size: 60px;
   color: #000000;
   text-shadow: 3px 3px #ff9933;
   font-family: 'Heebo', sans-serif;
 }
-#contact > .container > h2{
+
+#contact>.container>h2 {
   padding-top: 30px;
   font-size: 30px;
   font-family: 'Heebo', sans-serif;
 }
 
+
 /* ABOUT */
 
-#about > .container {
+#about>.container {
   padding-right: 5%;
 }
 
-#info > h1 {
+#info>h1 {
   text-align: left;
   font-size: 25px/55px;
 }
 
-#info > h1:after {
-  content:' ';
-  display:block;
+#info>h1:after {
+  content: ' ';
+  display: block;
   width: 100%;
-  border:1px solid darkorange;
+  border: 1px solid darkorange;
 }
 
 #info {
   margin-right: 10%;
 }
 
-#info > p {
+#info>p {
   font-size: 18px;
   line-height: 1.4em;
   white-space: pre-line;
   text-align: left;
 }
-#info > h2 {
+
+#info>h2 {
   font-size: 25px;
   font-family: 'Heebo', sans-serif;
   text-align: left;
 }
-#info > h3 {
+
+#info>h3 {
   font-size: 18px;
   font-family: 'Heebo', sans-serif;
   text-align: left;
@@ -242,12 +253,12 @@ header {
   width: 70%;
 }
 
-#selfImage{
+#selfImage {
   width: 30%;
   display: inline-block;
 }
 
-#selfImage > img{
+#selfImage>img {
   width: 100%;
   height: auto;
 }
@@ -261,6 +272,7 @@ header {
 #projWrapper {
   width: 100;
 }
+
 .projWrapper1 {
   width: 100;
   padding-top: 30px;
@@ -273,29 +285,32 @@ header {
   width: 40%;
 }
 
-#pg > h1 {
+#pg>h1 {
   width: auto;
   margin: 0;
   font-family: 'Heebo', sans-serif;
   font-size: 4em;
   padding-bottom: 3px;
 }
-#pg > p {
+
+#pg>p {
   font-size: 1.8em;
   line-height: 1.3em;
 }
-#pg > h2 {
+
+#pg>h2 {
   line-height: 1.3em;
   font-family: 'Heebo', sans-serif;
   font-size: 20px;
 }
 
-#pg > h1:after {
-  content:' ';
-  display:block;
+#pg>h1:after {
+  content: ' ';
+  display: block;
   width: 100%;
-  border:2px solid darkorange;
+  border: 2px solid darkorange;
 }
+
 #pimg {
   width: 50%;
   padding-top: 10px;
@@ -303,34 +318,39 @@ header {
   float: right;
   text-align: center;
   vertical-align: top;
-} 
-#pimg > img {
+}
+
+#pimg>img {
   box-shadow: 2px 2px 3px gray;
-} 
-#pimg > h1 {
+}
+
+#pimg>h1 {
   font-size: 3em;
   font-family: 'Heebo', sans-serif;
   color: black;
   margin: 0;
   padding-bottom: 20px;
-} 
-#pimg > h2 {
+}
+
+#pimg>h2 {
   font-size: 1.9em;
   font-family: 'Heebo', sans-serif;
   color: black;
-} 
-#pimg > h1 > a{
+}
+
+#pimg>h1>a {
   font-size: 1em;
   font-family: 'Heebo', sans-serif;
   text-decoration: none;
   color: black;
-} 
-#pimg > h1 >a:hover {
+}
+
+#pimg>h1>a:hover {
   color: darkorange;
-} 
+}
 
 #columns {
-  -webkit-column-count:3;
+  -webkit-column-count: 3;
   -webkit-column-gap: 10px;
   -webkit-column-fill: auto;
   -moz-column-count: 3;
@@ -338,7 +358,7 @@ header {
   -moz-column-fill: auto;
   column-count: 3;
   column-gap: 15px;
-  column-fill:auto;
+  column-fill: auto;
 }
 
 .carousel-caption {
@@ -349,17 +369,18 @@ header {
   background-color: rgba(0, 0, 0, 0.4);
   visibility: hidden;
   font-family: 'Heebo', sans-serif;
-  }
+}
 
-@media (hover:none), (hover:on-demand) { 
- .carousel-caption {
-  right: 0;
-  left: 0;
-  bottom: 0px;
-  padding: 0;
-  background-color: rgba(0, 0, 0, 0.4);
-  visibility: visible;
-  font-family: 'Heebo', sans-serif;
+@media (hover:none),
+(hover:on-demand) {
+  .carousel-caption {
+    right: 0;
+    left: 0;
+    bottom: 0px;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    visibility: visible;
+    font-family: 'Heebo', sans-serif;
   }
 }
 
@@ -374,7 +395,7 @@ header {
   padding: 5px;
   -webkit-transition: all .2s ease;
   -moz-transition: all .2s ease;
-  -o-transition:all .2s ease;
+  -o-transition: all .2s ease;
   cursor: pointer;
 }
 
@@ -386,36 +407,50 @@ header {
 #carousel1:hover .carousel-caption {
   visibility: visible;
 }
+
 #carousel2:hover .carousel-caption {
   visibility: visible;
 }
+
 #carousel3:hover .carousel-caption {
   visibility: visible;
 }
+
 #carousel4:hover .carousel-caption {
   visibility: visible;
 }
+
 #carousel5:hover .carousel-caption {
   visibility: visible;
 }
+
 #carousel6:hover .carousel-caption {
   visibility: visible;
 }
+
 #carousel7:hover .carousel-caption {
   visibility: visible;
 }
+
 #carousel8:hover .carousel-caption {
   visibility: visible;
 }
+
 #carousel9:hover .carousel-caption {
   visibility: visible;
 }
-.carousel-caption > p{
+
+#carousel10:hover .carousel-caption {
+  visibility: visible;
+}
+
+.carousel-caption>p {
   font-size: 1.5em;
   text-shadow: 0, 0, 0 none;
   margin: 0, 0, 10px, 0;
 }
-.carousel-caption > h3{
+
+.carousel-caption>h3 {
   font-size: 2.4em;
   text-shadow: 0, 0, 0 none;
   margin: 10px, 0, 0, 0;
@@ -426,14 +461,15 @@ header {
 }
 
 #proj {
-    text-align: left;
+  text-align: left;
 }
 
-#proj > h1 {
-    font-family: 'Heebo', sans-serif;
-    font-size: 30px;
+#proj>h1 {
+  font-family: 'Heebo', sans-serif;
+  font-size: 30px;
 }
-#proj > h3 {
+
+#proj>h3 {
   font-size: 15px;
   margin-top: 0px;
 }
@@ -441,34 +477,42 @@ header {
 
 /* ===== FOOTER ===== */
 
-
 footer {
   display: block;
   margin-top: 30px;
   height: 40px;
 }
 
-#footer {
+#footerNav {
   align-content: center;
   text-align: center;
   margin: auto;
-  font-family: 'Heebo', sans-serif;
-}
-
-#footer > li {
-  font-size: 17px;
-  float: none;
   display: inline-block;
 }
 
-#footer > li > a{
- text-decoration: none;
+.footerLinks {
+  display: inline-block;
+  float: none;
+  vertical-align: middle;
+}
+
+.footerLinks>p {
+  font-family: 'Heebo', sans-serif;
+  font-size: 17px;
+  float: none;
+  display: inline-block;
+  margin: 0;
+  padding: 5px;
+}
+
+.footerLinks>p>a {
+  text-decoration: none;
   color: black;
   padding-bottom: 3px;
   position: relative;
 }
 
-#footer > li > a:before {
+.footerLinks>p>a:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -483,16 +527,22 @@ footer {
   transition: all 0.3s ease-in-out 0s;
 }
 
-#footer > li > a:hover:before
-{
-  color:darkorange;
+.footerLinks>p>a:hover:before {
+  color: darkorange;
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
 
-@media only screen and (max-width: 400px)  {
-  
+.footerIcons {
+  margin-left: 5px;
+  display: inline-block;
+  float: none;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 400px) {
   /* === HEADER === */
   header {
     padding-top: 10%;
@@ -501,18 +551,15 @@ footer {
     text-align: center;
     align-content: center;
   }
-  
   .nameWrap {
-   display: none;
+    display: none;
   }
-  
   .linkWrap {
     margin: 0 auto;
     padding: 0;
     height: auto;
     float: none;
   }
-  
   #topNav {
     width: 100%;
     display: block;
@@ -520,18 +567,16 @@ footer {
     height: auto;
     align-content: center;
   }
-
   #topIcons {
     padding-left: 10px;
     display: inline-block;
     float: none;
   }
-  #topIcons > a > img {
+  #topIcons>a>img {
     width: 30px;
     height: auto;
   }
-  
-  #topNav .linkWrap > li {
+  #topNav .linkWrap>li {
     font-size: 1.3em;
     float: none;
     display: inline-block;
@@ -539,16 +584,14 @@ footer {
     margin-right: 5px;
     vertical-align: middle;
   }
-  
-  #topNav .linkWrap > li > a{
+  #topNav .linkWrap>li>a {
     font-family: 'Heebo', sans-serif;
     text-decoration: none;
     color: black;
     padding-bottom: 3px;
     position: relative;
   }
-
-  #topNav .linkWrap > li > a:before {
+  #topNav .linkWrap>li>a:before {
     content: "";
     position: absolute;
     width: 100%;
@@ -562,39 +605,35 @@ footer {
     -webkit-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
   }
-  
-  #topNav .linkWrap > li > a:hover:before
-  {
-    color:darkorange;
+  #topNav .linkWrap>li>a:hover:before {
+    color: darkorange;
     visibility: visible;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
   }
-
   #main {
     padding: 0 20px -50px 20px;
     height: 100%;
   }
-  #home > .container {
+  #home>.container {
     padding: 0;
     text-align: center;
     margin: 30px 0 20px 0;
   }
-  
-  #home > .container > h1{
+  #home>.container>h1 {
     font-size: 8em;
     color: #000000;
     text-shadow: 3px 3px #ff9933;
     font-family: 'Heebo', sans-serif;
   }
-  #home > .container > h2{
+  #home>.container>h2 {
     font-size: 1.8em;
     margin-top: 0px;
     margin-bottom: 10px;
     line-height: 1.2em;
     font-family: 'Heebo', sans-serif;
   }
-  #home > .container > h3{
+  #home>.container>h3 {
     font-size: 1.4em;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -602,188 +641,166 @@ footer {
     font-family: 'Heebo', sans-serif;
     white-space: pre-line;
   }
-  #home > .container > h3 > a{
+  #home>.container>h3>a {
     font-size: 1em;
     font-family: 'Heebo', sans-serif;
     text-decoration: none;
     color: darkorange;
   }
-  
-  #home > .container > h3 > a:before {
+  #home>.container>h3>a:before {}
+  #home>.container>h3>a:hover:before {
+    color: black;
   }
-  
-  #home > .container > h3 > a:hover:before
-  {
-    color:black;
-  }
-  
-/* ===== ABOUT ===== */
-  
-  #info > h1 {
+  /* ===== ABOUT ===== */
+  #info>h1 {
     text-align: left;
     font-size: 3.5em;
   }
-
-  #info > h1:after {
-    content:' ';
-    display:block;
+  #info>h1:after {
+    content: ' ';
+    display: block;
     width: 100%;
-    border:1px solid darkorange;
+    border: 1px solid darkorange;
   }
-
   #info {
     width: 100%;
   }
-  
-  #info > p {
+  #info>p {
     font-size: 1.9em;
     line-height: 1.4em;
     white-space: pre-line;
     text-align: left;
   }
-  #info > h2 {
+  #info>h2 {
     font-size: 3em;
     line-height: 1.4em;
     font-family: 'Heebo', sans-serif;
     text-align: left;
   }
-  #info > h3 {
+  #info>h3 {
     font-size: 1.8em;
     line-height: 1.4em;
     font-family: 'Heebo', sans-serif;
     text-align: center;
     margin-top: 0;
   }
-  
   #selfInfo {
     float: left;
     display: block;
     height: auto;
     width: 100%;
   }
-
-  #selfImage{
+  #selfImage {
     width: 100%;
     display: block;
     align-content: center;
   }
-  
-  #selfImage > img{
+  #selfImage>img {
     margin-top: 20px;
     width: 50%;
     align-content: center;
     height: auto;
   }
-  
   /* ===== PROJECT ===== */
-  
   .projWrapper1 {
     width: 100;
     padding-top: 5px;
     text-align: left;
     margin: 0;
   }
-  
   #project {
     padding: 0;
   }
-  
-   #columns {
-    -webkit-column-count:1;
+  #columns {
+    -webkit-column-count: 1;
     -moz-column-count: 1;
     column-count: 1;
     align-content: center;
     text-align: center;
-     margin: 0 auto;
+    margin: 0 auto;
   }
-  .carousel-caption > p{
+  .carousel-caption>p {
     font-size: 1.1em;
     text-shadow: 0, 0, 0 none;
     margin: 0, 0, 10px, 0;
   }
-  .carousel-caption > h3{
+  .carousel-caption>h3 {
     font-size: 2em;
     text-shadow: 0, 0, 0 none;
     margin: 10px, 0, 0, 0;
   }
-  
   #pg {
     width: 100%;
   }
-  
-  #pg > h1 {
+  #pg>h1 {
     width: auto;
     margin: 0;
     font-family: 'Heebo', sans-serif;
     font-size: 3.4em;
     padding-bottom: 3px;
   }
-  #pg > p {
+  #pg>p {
     font-size: 1.8em;
     line-height: 1.4em;
   }
-  #pg > h2 {
+  #pg>h2 {
     line-height: 1.2em;
     font-family: 'Heebo', sans-serif;
     font-size: 1.8em;
   }
-  
-  #pg > h1:after {
-    content:' ';
-    display:block;
+  #pg>h1:after {
+    content: ' ';
+    display: block;
     width: 100%;
-    border:2px solid darkorange;
+    border: 2px solid darkorange;
   }
   #pimg {
     width: 100%;
     padding-top: 10px;
     display: block;
     text-align: center;
-  } 
-  #pimg > img {
+  }
+  #pimg>img {
     box-shadow: 2px 2px 3px gray;
-  } 
-  #pimg > h1 {
+  }
+  #pimg>h1 {
     font-size: 1.7em;
     font-family: 'Heebo', sans-serif;
     color: black;
     padding-bottom: 10px;
-  } 
-  #pimg > h2 {
+  }
+  #pimg>h2 {
     font-size: 1.5em;
     font-family: 'Heebo', sans-serif;
     color: black;
-  } 
-  #pimg > h1 > a{
+  }
+  #pimg>h1>a {
     font-size: 1.3em;
     font-family: 'Heebo', sans-serif;
     text-decoration: none;
     color: black;
-  } 
-  #pimg > h1 >a:hover {
+  }
+  #pimg>h1>a:hover {
     color: darkorange;
-  } 
-  
+  }
   /* ===== CONTACT ===== */
-  
-   #contact {
+  #contact {
     min-height: 100%;
     padding-bottom: 80px;
-  }  
-  #contact > .container {
+  }
+  #contact>.container {
     padding: 100px 0 70px 0;
     text-align: center;
     min-height: 100%;
   }
-  
-  #contact > .container > h1{
+  #contact>.container>h1 {
     font-size: 3.2em;
     margin-bottom: 20px;
     color: #000000;
     text-shadow: 2px 2px #ff9933;
     font-family: 'Heebo', sans-serif;
   }
-  #contact > .container > h2{
+  #contact>.container>h2 {
     padding: 0px;
     margin: 0;
     line-height: 1.4em;
@@ -795,37 +812,29 @@ footer {
     font-size: 1em;
     margin: 0;
   }
-  
-  
   /* ===== FOOTER ===== */
-  
-  
   footer {
     margin: 0
   }
-  
-  #footer {
+  .footerLinks {
     height: 40px;
     align-content: center;
     text-align: center;
     margin: 20px 0 0 0;
     font-family: 'Heebo', sans-serif;
   }
-
-  #footer > li {
-    font-size: 1.4em;
+  .footerLinks>p {
+    font-size: 1em;
     float: none;
     display: inline-block;
   }
-  
-  #footer > li > a{
+  .footerLinks>p>a {
     text-decoration: none;
     color: black;
     padding-bottom: 3px;
     position: relative;
   }
-  
-  #footer > li > a:before {
+  .footerLinks>p>a:before {
     content: "";
     position: absolute;
     width: 100%;
@@ -839,30 +848,40 @@ footer {
     -webkit-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
   }
-  
-  #footer > li > a:hover:before
-  {
-    color:darkorange;
+  .footerLinks>p>a:hover:before {
+    color: darkorange;
     visibility: visible;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
-  }  
+  }
+  .footerIcons {
+    width: 10px;
+    height: auto;
+    margin-left: 5px;
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+  .footerIcons>a>img {
+    width: 25px;
+    height: auto;
+  }
 }
+
 @media only screen and (min-width: 790px) and (orientation: portrait) {
-  
   /* === HEADER === */
   body {
     font-size: 1em;
     line-height: 1em;
-    min-height:100%;
+    min-height: 100%;
   }
   header {
     text-align: left;
     padding: 10% 10% 0% 10%;
-    margin: 0;  
+    margin: 0;
     height: auto;
   }
-
   .nameWrap {
     float: left;
     margin: 0;
@@ -885,40 +904,35 @@ footer {
     width: 100%;
     display: inline-block;
   }
-  
   #topNav {
     width: 100%;
     float: none;
   }
-
   #topIcons {
     padding-left: 15px;
     display: inline-block;
     float: none;
   }
-  #topIcons > a > img {
+  #topIcons>a>img {
     width: 60px;
     height: auto;
   }
-  
-  #topNav .linkWrap > li {
+  #topNav .linkWrap>li {
     font-size: 2.5em;
     float: none;
     display: inline-block;
     margin-left: 15px;
     margin-right: 15px;
-    vertical-align:middle;
+    vertical-align: middle;
   }
-  
-  #topNav .linkWrap > li > a{
+  #topNav .linkWrap>li>a {
     font-family: 'Heebo', sans-serif;
     text-decoration: none;
     color: black;
     padding-bottom: 3px;
     position: relative;
   }
-
-  #topNav .linkWrap > li > a:before {
+  #topNav .linkWrap>li>a:before {
     content: "";
     position: absolute;
     width: 100%;
@@ -932,40 +946,35 @@ footer {
     -webkit-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
   }
-  
-  #topNav .linkWrap > li > a:hover:before
-  {
-    color:darkorange;
+  #topNav .linkWrap>li>a:hover:before {
+    color: darkorange;
     visibility: visible;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
   }
-
   #main {
     padding: 10px 10% 10% 10%;
     min-height: 100%;
   }
-
-  #home > .container {
+  #home>.container {
     padding: 10px 0 20px 0;
     text-align: center;
     margin: 70px 0 120px 0;
   }
-  
-  #home > .container > h1{
+  #home>.container>h1 {
     font-size: 20em;
     color: #000000;
     text-shadow: 3px 3px #ff9933;
     font-family: 'Heebo', sans-serif;
   }
-  #home > .container > h2{
+  #home>.container>h2 {
     font-size: 4.3em;
     margin-top: 0px;
     margin-bottom: 15px;
     line-height: 1.2em;
     font-family: 'Heebo', sans-serif;
   }
-  #home > .container > h3{
+  #home>.container>h3 {
     font-size: 3.2em;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -973,114 +982,95 @@ footer {
     font-family: 'Heebo', sans-serif;
     white-space: pre-line;
   }
-  #home > .container > h3 > a{
+  #home>.container>h3>a {
     font-size: 1em;
     font-family: 'Heebo', sans-serif;
     text-decoration: none;
     color: darkorange;
   }
-  
-  #home > .container > h3 > a:before {
+  #home>.container>h3>a:before {}
+  #home>.container>h3>a:hover:before {
+    color: black;
   }
-  
-  #home > .container > h3 > a:hover:before
-  {
-    color:black;
-  }
-  
-/* ===== ABOUT ===== */
-
+  /* ===== ABOUT ===== */
   #contact {
     min-height: 100%;
-  }  
-  #contact > .container {
+  }
+  #contact>.container {
     padding: 100px 0 100px 0;
     text-align: center;
     min-height: 100%;
   }
-  
-  #info > h1 {
+  #info>h1 {
     text-align: left;
     font-size: 5em;
   }
-
-  #info > h1:after {
-    content:' ';
-    display:block;
+  #info>h1:after {
+    content: ' ';
+    display: block;
     width: 100%;
-    border:1px solid darkorange;
+    border: 1px solid darkorange;
   }
-
   #info {
     width: 100%;
   }
-  
-  #info > p {
+  #info>p {
     font-size: 2.6em;
     line-height: 1.4em;
     white-space: pre-line;
     text-align: left;
   }
-  #info > h2 {
+  #info>h2 {
     font-size: 1.4em;
     line-height: 1.4em;
     font-family: 'Heebo', sans-serif;
     text-align: left;
   }
-  #info > h3 {
+  #info>h3 {
     font-size: 2.4em;
     line-height: 1.4em;
     font-family: 'Heebo', sans-serif;
     text-align: center;
     margin-top: 0;
   }
-  
   #selfInfo {
     float: left;
     display: block;
     height: auto;
     width: 100%;
   }
-
-  #selfImage{
+  #selfImage {
     width: 100%;
     display: block;
     align-content: center;
   }
-  
-  #selfImage > img{
+  #selfImage>img {
     margin-top: 20px;
     width: 50%;
     align-content: center;
     height: auto;
   }
-  
   /* ===== PROJECT ===== */
-  
   #project {
     padding: 10px 0 0 0;
     margin: auto;
     align-content: center;
     text-align: center;
   }
-
   #projWrapper {
     width: 100%;
-     align-content: center;
+    align-content: center;
     text-align: center;
-     margin: 0 auto;
+    margin: 0 auto;
   }
-  
-   #columns {
-    -webkit-column-count:2;
+  #columns {
+    -webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;
     align-content: center;
     text-align: center;
-     margin: 0 auto;
+    margin: 0 auto;
   }
-
-  
   .grid-item {
     display: inline-block;
     box-shadow: 1px 1px 2px #f8f8f8;
@@ -1092,9 +1082,8 @@ footer {
     padding: 5px;
     -webkit-transition: all .2s ease;
     -moz-transition: all .2s ease;
-    -o-transition:all .2s ease;
+    -o-transition: all .2s ease;
   }
-  
   .carousel-caption {
     right: 0;
     left: 0;
@@ -1104,91 +1093,83 @@ footer {
     visibility: visible;
     font-family: 'Heebo', sans-serif;
   }
-
-  
   .projWrapper1 {
     width: 100;
     padding-top: 30px;
     text-align: left;
     margin: 0 0 0 0;
   }
-  
   #pg {
     width: 100%;
   }
-  
-  #pg > h1 {
+  #pg>h1 {
     width: auto;
     margin: 0;
     font-family: 'Heebo', sans-serif;
     font-size: 5em;
     padding-bottom: 3px;
   }
-  #pg > p {
+  #pg>p {
     font-size: 2.8em;
     line-height: 1.4em;
   }
-  #pg > h2 {
+  #pg>h2 {
     line-height: 1.4em;
     font-family: 'Heebo', sans-serif;
     font-size: 2.8em;
   }
-  
-  #pg > h1:after {
-    content:' ';
-    display:block;
+  #pg>h1:after {
+    content: ' ';
+    display: block;
     width: 100%;
-    border:2px solid darkorange;
+    border: 2px solid darkorange;
   }
   #pimg {
     width: 100%;
     padding-top: 10px;
     display: block;
     text-align: center;
-  } 
-  #pimg > img {
+  }
+  #pimg>img {
     box-shadow: 2px 2px 3px gray;
-  } 
-  #pimg > h1 {
+  }
+  #pimg>h1 {
     font-size: 3.2em;
     font-family: 'Heebo', sans-serif;
     color: black;
     padding-bottom: 10px;
-  } 
-  #pimg > h2 {
+  }
+  #pimg>h2 {
     font-size: 2.6em;
     font-family: 'Heebo', sans-serif;
     color: black;
-  } 
-  #pimg > h1 > a{
+  }
+  #pimg>h1>a {
     font-size: 1.2em;
     font-family: 'Heebo', sans-serif;
     text-decoration: none;
     color: black;
-  } 
-  #pimg > h1 >a:hover {
+  }
+  #pimg>h1>a:hover {
     color: darkorange;
-  } 
-  
+  }
   /* ===== CONTACT ===== */
-  
-  
   #contact {
     padding-bottom: 70px;
-  }  
-  #contact > .container {
+  }
+  #contact>.container {
     padding: 20% 0 20% 0;
     text-align: center;
     height: 100%;
   }
-  #contact > .container > h1{
+  #contact>.container>h1 {
     font-size: 6em;
     margin-bottom: 20px;
     color: #000000;
     text-shadow: 2px 2px #ff9933;
     font-family: 'Heebo', sans-serif;
   }
-  #contact > .container > h2{
+  #contact>.container>h2 {
     padding: 0px;
     margin: 0;
     line-height: 1.2em;
@@ -1199,16 +1180,11 @@ footer {
     font-size: 1em;
     margin: 0;
   }
-  
-  
   /* ===== FOOTER ===== */
-  
-  
   footer {
     margin: 30px 0 0 0;
   }
-  
-  #footer {
+  .footerLinks {
     height: 60px;
     position: absolute;
     width: 100%;
@@ -1216,21 +1192,18 @@ footer {
     text-align: center;
     font-family: 'Heebo', sans-serif;
   }
-
-  #footer > li {
+  .footerLinks>p {
     font-size: 2.5em;
     float: none;
     display: inline-block;
   }
-  
-  #footer > li > a{
+  .footerLinks>p>a {
     text-decoration: none;
     color: black;
     padding-bottom: 3px;
     position: relative;
   }
-  
-  #footer > li > a:before {
+  .footerLinks>p>a:before {
     content: "";
     position: absolute;
     width: 100%;
@@ -1244,31 +1217,40 @@ footer {
     -webkit-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
   }
-  
-  #footer > li > a:hover:before
-  {
-    color:darkorange;
+  .footerLinks>p>a:hover:before {
+    color: darkorange;
     visibility: visible;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
-  }  
+  }
+  .footerIcons {
+    width: 10px;
+    height: auto;
+    margin-left: 5px;
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+  .footerIcons>a>img {
+    width: 25px;
+    height: auto;
+  }
 }
-@media only screen and (min-width: 650px) and (max-width: 789px)  {
-  
+
+@media only screen and (min-width: 650px) and (max-width: 789px) {
   /* === HEADER === */
   header {
     text-align: left;
     padding: 2%px 9% 5% 9%;
-    margin: 0; 
+    margin: 0;
     height: auto;
   }
-  
   #topNav {
     padding-top: 0;
     display: inline-block;
     width: 100%;
   }
-  
   .nameWrap {
     display: inline-block;
     float: left;
@@ -1287,18 +1269,16 @@ footer {
     float: right;
     display: inline-block;
   }
-
   #topIcons {
     padding-left: 10px;
     display: inline-block;
     float: none;
   }
-  #topIcons > a > img {
+  #topIcons>a>img {
     width: 50px;
     height: auto;
   }
-  
-  #topNav .linkWrap > li {
+  #topNav .linkWrap>li {
     font-size: 1.8em;
     float: none;
     display: inline-block;
@@ -1306,16 +1286,14 @@ footer {
     margin-right: 5px;
     vertical-align: middle;
   }
-  
-  #topNav .linkWrap > li > a{
+  #topNav .linkWrap>li>a {
     font-family: 'Heebo', sans-serif;
     text-decoration: none;
     color: black;
     padding-bottom: 3px;
     position: relative;
   }
-
-  #topNav .linkWrap > li > a:before {
+  #topNav .linkWrap>li>a:before {
     content: "";
     position: absolute;
     width: 100%;
@@ -1329,41 +1307,37 @@ footer {
     -webkit-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
   }
-  
-  #topNav .linkWrap > li > a:hover:before
-  {
-    color:darkorange;
+  #topNav .linkWrap>li>a:hover:before {
+    color: darkorange;
     visibility: visible;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
   }
-
   #main {
     padding: 10px 9% 10px 9%;
     height: 100%;
     padding-bottom: -50px;
   }
-  #home > .container {
+  #home>.container {
     padding: 0 30px 30px 30px;
     text-align: center;
     margin: 0 0 20px 0;
   }
-  
-  #home > .container > h1{
+  #home>.container>h1 {
     margin-top: 0;
     font-size: 9em;
     color: #000000;
     text-shadow: 3px 3px #ff9933;
     font-family: 'Heebo', sans-serif;
   }
-  #home > .container > h2{
+  #home>.container>h2 {
     font-size: 2.2em;
     margin-top: 0px;
     margin-bottom: 10px;
     line-height: 1.2em;
     font-family: 'Heebo', sans-serif;
   }
-  #home > .container > h3{
+  #home>.container>h3 {
     font-size: 1.6em;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -1371,128 +1345,109 @@ footer {
     font-family: 'Heebo', sans-serif;
     white-space: pre-line;
   }
-  #home > .container > h3 > a{
+  #home>.container>h3>a {
     font-size: 1.3em;
     font-family: 'Heebo', sans-serif;
     text-decoration: none;
     color: darkorange;
   }
-  
-  #home > .container > h3 > a:before {
+  #home>.container>h3>a:before {}
+  #home>.container>h3>a:hover:before {
+    color: black;
   }
-  
-  #home > .container > h3 > a:hover:before
-  {
-    color:black;
-  }
-  
-/* ===== ABOUT ===== */
-  
+  /* ===== ABOUT ===== */
   #about {
     padding: 0;
   }
-  #about > .container{
+  #about>.container {
     padding: 0;
   }
-  
-  #info > h1 {
+  #info>h1 {
     text-align: left;
     font-size: 3.5em;
   }
-
-  #info > h1:after {
-    content:' ';
-    display:block;
+  #info>h1:after {
+    content: ' ';
+    display: block;
     width: 100%;
-    border:1px solid darkorange;
+    border: 1px solid darkorange;
   }
-
   #info {
     width: 100%;
   }
-  
-  #info > p {
+  #info>p {
     font-size: 1.8em;
     line-height: 1.4em;
     white-space: pre-line;
     text-align: left;
   }
-  #info > h2 {
+  #info>h2 {
     font-size: 1em;
     line-height: 1.4em;
     font-family: 'Heebo', sans-serif;
     text-align: left;
   }
-  #info > h3 {
+  #info>h3 {
     font-size: 1.6em;
     line-height: 1.4em;
     font-family: 'Heebo', sans-serif;
     text-align: center;
     margin-top: 0;
   }
-  
   #selfInfo {
     float: left;
     display: block;
     height: auto;
     width: 100%;
   }
-
-  #selfImage{
+  #selfImage {
     width: 100%;
     display: block;
     align-content: center;
   }
-  
-  #selfImage > img{
+  #selfImage>img {
     margin-top: 20px;
     width: 50%;
     align-content: center;
     height: auto;
   }
-  
   /* ===== PROJECT ===== */
-  
   #project {
     padding: 10px 0 0 0;
     margin: auto;
     align-content: center;
     text-align: center;
   }
-  #project > .container{
+  #project>.container {
     padding: 0;
     margin: auto;
     align-content: center;
     text-align: center;
   }
-
   #projWrapper {
     width: 100%;
-     align-content: center;
+    align-content: center;
     text-align: center;
-     margin: 0 auto;
+    margin: 0 auto;
   }
-  .carousel-caption > p{
+  .carousel-caption>p {
     font-size: 1.2em;
     text-shadow: 0, 0, 0 none;
     margin: 0, 0, 10px, 0;
   }
-  .carousel-caption > h3{
+  .carousel-caption>h3 {
     font-size: 2.1em;
     text-shadow: 0, 0, 0 none;
     margin: 10px, 0, 0, 0;
   }
-
-  
-   #columns {
-    -webkit-column-count:2;
+  #columns {
+    -webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;
     align-content: center;
     text-align: center;
-     margin: 0 auto;
+    margin: 0 auto;
   }
-  
   .grid-item {
     display: inline-block;
     box-shadow: 1px 1px 2px #f8f8f8;
@@ -1504,92 +1459,86 @@ footer {
     padding: 5px;
     -webkit-transition: all .2s ease;
     -moz-transition: all .2s ease;
-    -o-transition:all .2s ease;
+    -o-transition: all .2s ease;
   }
-
   .projWrapper1 {
     width: 100;
     padding-top: 0px;
     text-align: left;
     margin: 0 0 0 0;
   }
-  
   #pg {
     width: 100%;
   }
-  
-  #pg > h1 {
+  #pg>h1 {
     width: auto;
     margin: 0;
     font-family: 'Heebo', sans-serif;
     font-size: 3.4em;
     padding-bottom: 3px;
   }
-  #pg > p {
+  #pg>p {
     font-size: 1.8em;
     line-height: 1.4em;
   }
-  #pg > h2 {
+  #pg>h2 {
     line-height: 1.3em;
     font-family: 'Heebo', sans-serif;
     font-size: 2em;
   }
-  
-  #pg > h1:after {
-    content:' ';
-    display:block;
+  #pg>h1:after {
+    content: ' ';
+    display: block;
     width: 100%;
-    border:2px solid darkorange;
+    border: 2px solid darkorange;
   }
   #pimg {
     width: 100%;
     padding-top: 10px;
     display: block;
     text-align: center;
-  } 
-  #pimg > img {
+  }
+  #pimg>img {
     box-shadow: 2px 2px 3px gray;
-  } 
-  #pimg > h1 {
+  }
+  #pimg>h1 {
     font-size: 3.2em;
     font-family: 'Heebo', sans-serif;
     color: black;
     padding-bottom: 10px;
-  } 
-  #pimg > h2 {
+  }
+  #pimg>h2 {
     font-size: 2em;
     font-family: 'Heebo', sans-serif;
     color: black;
-  } 
-  #pimg > h1 > a{
+  }
+  #pimg>h1>a {
     font-size: 1.2em;
     font-family: 'Heebo', sans-serif;
     text-decoration: none;
     color: black;
-  } 
-  #pimg > h1 >a:hover {
+  }
+  #pimg>h1>a:hover {
     color: darkorange;
-  } 
-  
+  }
   /* ===== CONTACT ===== */
   #contact {
     min-height: 100%;
     padding-bottom: 7%;
-  }  
-  
-  #contact > .container {
+  }
+  #contact>.container {
     padding: 0;
     text-align: center;
     height: 100%;
   }
-  #contact > .container > h1{
+  #contact>.container>h1 {
     font-size: 3.2em;
     margin-bottom: 20px;
     color: #000000;
     text-shadow: 3px 3px #ff9933;
     font-family: 'Heebo', sans-serif;
   }
-  #contact > .container > h2{
+  #contact>.container>h2 {
     padding: 0px;
     margin: 0;
     line-height: 1.2em;
@@ -1600,36 +1549,29 @@ footer {
     font-size: 1.1em;
     margin: 0;
   }
-  
-  
   /* ===== FOOTER ===== */
-  
   footer {
     margin: 0
   }
-  
-  #footer {
+  .footerLinks {
     height: 40px;
     align-content: center;
     text-align: center;
     margin: 20px 0 0 0;
     font-family: 'Heebo', sans-serif;
   }
-
-  #footer > li {
+  .footerLinks>p {
     font-size: 1.4em;
     float: none;
     display: inline-block;
   }
-  
-  #footer > li > a{
+  .footerLinks>p>a {
     text-decoration: none;
     color: black;
     padding-bottom: 3px;
     position: relative;
   }
-  
-  #footer > li > a:before {
+  .footerLinks>p>a:before {
     content: "";
     position: absolute;
     width: 100%;
@@ -1643,31 +1585,40 @@ footer {
     -webkit-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
   }
-  
-  #footer > li > a:hover:before
-  {
-    color:darkorange;
+  footerLinks>p>a:hover:before {
+    color: darkorange;
     visibility: visible;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
-  }  
+  }
+  .footerIcons {
+    width: 10px;
+    height: auto;
+    margin-left: 5px;
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+  .footerIcons>a>img {
+    width: 25px;
+    height: auto;
+  }
 }
-@media only screen and (min-width: 561px) and (max-width: 649px)  {
-  
+
+@media only screen and (min-width: 561px) and (max-width: 649px) {
   /* === HEADER === */
   header {
     text-align: left;
     padding: 5% 9% 3% 9%;
-    margin: 0; 
+    margin: 0;
     height: auto;
   }
-  
   #topNav {
     padding-top: 0;
     display: inline-block;
     width: 100%;
   }
-  
   .nameWrap {
     display: inline-block;
     float: left;
@@ -1686,18 +1637,16 @@ footer {
     float: right;
     display: inline-block;
   }
-
   #topIcons {
     padding-left: 10px;
     display: inline-block;
     float: none;
   }
-  #topIcons > a > img {
+  #topIcons>a>img {
     width: 40px;
     height: auto;
   }
-  
-  #topNav .linkWrap > li {
+  #topNav .linkWrap>li {
     font-size: 1.4em;
     float: none;
     display: inline-block;
@@ -1705,16 +1654,14 @@ footer {
     margin-right: 5px;
     vertical-align: middle;
   }
-  
-  #topNav .linkWrap > li > a{
+  #topNav .linkWrap>li>a {
     font-family: 'Heebo', sans-serif;
     text-decoration: none;
     color: black;
     padding-bottom: 3px;
     position: relative;
   }
-
-  #topNav .linkWrap > li > a:before {
+  #topNav .linkWrap>li>a:before {
     content: "";
     position: absolute;
     width: 100%;
@@ -1728,41 +1675,37 @@ footer {
     -webkit-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
   }
-  
-  #topNav .linkWrap > li > a:hover:before
-  {
-    color:darkorange;
+  #topNav .linkWrap>li>a:hover:before {
+    color: darkorange;
     visibility: visible;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
   }
-
   #main {
     padding: 0 9% 10px 9%;
     height: 100%;
     padding-bottom: -50px;
   }
-  #home > .container {
+  #home>.container {
     padding: 0 30px 30px 30px;
     text-align: center;
     margin: 0 0 20px 0;
   }
-  
-  #home > .container > h1{
+  #home>.container>h1 {
     margin-top: 0;
     font-size: 8em;
     color: #000000;
     text-shadow: 3px 3px #ff9933;
     font-family: 'Heebo', sans-serif;
   }
-  #home > .container > h2{
+  #home>.container>h2 {
     font-size: 2em;
     margin-top: 0px;
     margin-bottom: 10px;
     line-height: 1.2em;
     font-family: 'Heebo', sans-serif;
   }
-  #home > .container > h3{
+  #home>.container>h3 {
     font-size: 1.4em;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -1770,129 +1713,109 @@ footer {
     font-family: 'Heebo', sans-serif;
     white-space: pre-line;
   }
-  #home > .container > h3 > a{
+  #home>.container>h3>a {
     font-size: 1.3em;
     font-family: 'Heebo', sans-serif;
     text-decoration: none;
     color: darkorange;
   }
-  
-  #home > .container > h3 > a:before {
+  #home>.container>h3>a:before {}
+  #home>.container>h3>a:hover:before {
+    color: black;
   }
-  
-  #home > .container > h3 > a:hover:before
-  {
-    color:black;
-  }
-  
-/* ===== ABOUT ===== */
-  
+  /* ===== ABOUT ===== */
   #about {
     padding: 0;
   }
-  #about > .container{
+  #about>.container {
     padding: 0;
   }
-  
-  #info > h1 {
+  #info>h1 {
     text-align: left;
     font-size: 3.5em;
   }
-
-  #info > h1:after {
-    content:' ';
-    display:block;
+  #info>h1:after {
+    content: ' ';
+    display: block;
     width: 100%;
-    border:1px solid darkorange;
+    border: 1px solid darkorange;
   }
-
   #info {
     width: 100%;
   }
-  
-  #info > p {
+  #info>p {
     font-size: 1.8em;
     line-height: 1.4em;
     white-space: pre-line;
     text-align: left;
   }
-  #info > h2 {
+  #info>h2 {
     font-size: 1em;
     line-height: 1.4em;
     font-family: 'Heebo', sans-serif;
     text-align: left;
   }
-  #info > h3 {
+  #info>h3 {
     font-size: 1.6em;
     line-height: 1.4em;
     font-family: 'Heebo', sans-serif;
     text-align: center;
     margin-top: 0;
   }
-  
   #selfInfo {
     float: left;
     display: block;
     height: auto;
     width: 100%;
   }
-
-  #selfImage{
+  #selfImage {
     width: 100%;
     display: block;
     align-content: center;
   }
-  
-  #selfImage > img{
+  #selfImage>img {
     margin-top: 20px;
     width: 50%;
     align-content: center;
     height: auto;
   }
-  
   /* ===== PROJECT ===== */
-  
   #project {
     padding: 10px 0 0 0;
     margin: auto;
     align-content: center;
     text-align: center;
   }
-  #project > .container{
+  #project>.container {
     padding: 0;
     margin: auto;
     align-content: center;
     text-align: center;
   }
-
   #projWrapper {
     width: 100%;
-     align-content: center;
+    align-content: center;
     text-align: center;
-     margin: 0 auto;
+    margin: 0 auto;
   }
-
-  .carousel-caption > p{
+  .carousel-caption>p {
     font-size: 1em;
     text-shadow: 0, 0, 0 none;
     margin: 0, 0, 10px, 0;
   }
-  .carousel-caption > h3{
+  .carousel-caption>h3 {
     font-size: 2em;
     text-shadow: 0, 0, 0 none;
     margin: 10px, 0, 0, 0;
   }
-
-  
-   #columns {
-    -webkit-column-count:2;
+  #columns {
+    -webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;
     align-content: center;
     text-align: center;
-     margin: 0 auto;
+    margin: 0 auto;
   }
-  
   .grid-item {
     display: inline-block;
     box-shadow: 1px 1px 2px #f8f8f8;
@@ -1904,92 +1827,86 @@ footer {
     padding: 5px;
     -webkit-transition: all .2s ease;
     -moz-transition: all .2s ease;
-    -o-transition:all .2s ease;
+    -o-transition: all .2s ease;
   }
-
   .projWrapper1 {
     width: 100;
     padding-top: 0px;
     text-align: left;
     margin: 0 0 0 0;
   }
-  
   #pg {
     width: 100%;
   }
-  
-  #pg > h1 {
+  #pg>h1 {
     width: auto;
     margin: 0;
     font-family: 'Heebo', sans-serif;
     font-size: 3.4em;
     padding-bottom: 3px;
   }
-  #pg > p {
+  #pg>p {
     font-size: 1.8em;
     line-height: 1.4em;
   }
-  #pg > h2 {
+  #pg>h2 {
     line-height: 1.3em;
     font-family: 'Heebo', sans-serif;
     font-size: 2em;
   }
-  
-  #pg > h1:after {
-    content:' ';
-    display:block;
+  #pg>h1:after {
+    content: ' ';
+    display: block;
     width: 100%;
-    border:2px solid darkorange;
+    border: 2px solid darkorange;
   }
   #pimg {
     width: 100%;
     padding-top: 10px;
     display: block;
     text-align: center;
-  } 
-  #pimg > img {
+  }
+  #pimg>img {
     box-shadow: 2px 2px 3px gray;
-  } 
-  #pimg > h1 {
+  }
+  #pimg>h1 {
     font-size: 3.2em;
     font-family: 'Heebo', sans-serif;
     color: black;
     padding-bottom: 10px;
-  } 
-  #pimg > h2 {
+  }
+  #pimg>h2 {
     font-size: 2em;
     font-family: 'Heebo', sans-serif;
     color: black;
-  } 
-  #pimg > h1 > a{
+  }
+  #pimg>h1>a {
     font-size: 1.2em;
     font-family: 'Heebo', sans-serif;
     text-decoration: none;
     color: black;
-  } 
-  #pimg > h1 >a:hover {
+  }
+  #pimg>h1>a:hover {
     color: darkorange;
-  } 
-  
+  }
   /* ===== CONTACT ===== */
   #contact {
     min-height: 100%;
     padding-bottom: 7%;
-  }  
-  
-  #contact > .container {
+  }
+  #contact>.container {
     padding: 0;
     text-align: center;
     height: 100%;
   }
-  #contact > .container > h1{
+  #contact>.container>h1 {
     font-size: 3.2em;
     margin-bottom: 20px;
     color: #000000;
     text-shadow: 3px 3px #ff9933;
     font-family: 'Heebo', sans-serif;
   }
-  #contact > .container > h2{
+  #contact>.container>h2 {
     padding: 0px;
     margin: 0;
     line-height: 1.2em;
@@ -2000,36 +1917,29 @@ footer {
     font-size: 1.1em;
     margin: 0;
   }
-  
-  
   /* ===== FOOTER ===== */
-  
   footer {
     margin: 0
   }
-  
-  #footer {
+  .footerLinks {
     height: 40px;
     align-content: center;
     text-align: center;
     margin: 20px 0 0 0;
     font-family: 'Heebo', sans-serif;
   }
-
-  #footer > li {
+  .footerLinks>p {
     font-size: 1.4em;
     float: none;
     display: inline-block;
   }
-  
-  #footer > li > a{
+  .footerLinks>p>a {
     text-decoration: none;
     color: black;
     padding-bottom: 3px;
     position: relative;
   }
-  
-  #footer > li > a:before {
+  .footerLinks>p>a:before {
     content: "";
     position: absolute;
     width: 100%;
@@ -2043,17 +1953,28 @@ footer {
     -webkit-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
   }
-  
-  #footer > li > a:hover:before
-  {
-    color:darkorange;
+  footerLinks>p>a:hover:before {
+    color: darkorange;
     visibility: visible;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
-  }  
+  }
+  .footerIcons {
+    width: 10px;
+    height: auto;
+    margin-left: 5px;
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+  .footerIcons>a>img {
+    width: 25px;
+    height: auto;
+  }
 }
-@media only screen and (min-width: 401px) and (max-width: 560px)  {
-  
+
+@media only screen and (min-width: 401px) and (max-width: 560px) {
   /* === HEADER === */
   header {
     padding-top: 10%;
@@ -2062,18 +1983,15 @@ footer {
     text-align: center;
     align-content: center;
   }
-  
   .nameWrap {
-   display: none;
+    display: none;
   }
-  
   .linkWrap {
     margin: 0 auto;
     padding: 0;
     height: auto;
     float: none;
   }
-  
   #topNav {
     width: 100%;
     display: block;
@@ -2081,18 +1999,16 @@ footer {
     height: auto;
     align-content: center;
   }
-
   #topIcons {
     padding-left: 10px;
     display: inline-block;
     float: none;
   }
-  #topIcons > a > img {
+  #topIcons>a>img {
     width: 40px;
     height: auto;
   }
-  
-  #topNav .linkWrap > li {
+  #topNav .linkWrap>li {
     font-size: 1.6em;
     float: none;
     display: inline-block;
@@ -2100,16 +2016,14 @@ footer {
     margin-right: 5px;
     vertical-align: middle;
   }
-  
-  #topNav .linkWrap > li > a{
+  #topNav .linkWrap>li>a {
     font-family: 'Heebo', sans-serif;
     text-decoration: none;
     color: black;
     padding-bottom: 3px;
     position: relative;
   }
-
-  #topNav .linkWrap > li > a:before {
+  #topNav .linkWrap>li>a:before {
     content: "";
     position: absolute;
     width: 100%;
@@ -2123,39 +2037,35 @@ footer {
     -webkit-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
   }
-  
-  #topNav .linkWrap > li > a:hover:before
-  {
-    color:darkorange;
+  #topNav .linkWrap>li>a:hover:before {
+    color: darkorange;
     visibility: visible;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
   }
-
   #main {
     padding: 0 20px -50px 20px;
     height: 100%;
   }
-  #home > .container {
+  #home>.container {
     padding: 0;
     text-align: center;
     margin: 30px 0 20px 0;
   }
-  
-  #home > .container > h1{
+  #home>.container>h1 {
     font-size: 8em;
     color: #000000;
     text-shadow: 3px 3px #ff9933;
     font-family: 'Heebo', sans-serif;
   }
-  #home > .container > h2{
+  #home>.container>h2 {
     font-size: 1.8em;
     margin-top: 0px;
     margin-bottom: 10px;
     line-height: 1.2em;
     font-family: 'Heebo', sans-serif;
   }
-  #home > .container > h3{
+  #home>.container>h3 {
     font-size: 1.4em;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -2163,188 +2073,166 @@ footer {
     font-family: 'Heebo', sans-serif;
     white-space: pre-line;
   }
-  #home > .container > h3 > a{
+  #home>.container>h3>a {
     font-size: 1em;
     font-family: 'Heebo', sans-serif;
     text-decoration: none;
     color: darkorange;
   }
-  
-  #home > .container > h3 > a:before {
+  #home>.container>h3>a:before {}
+  #home>.container>h3>a:hover:before {
+    color: black;
   }
-  
-  #home > .container > h3 > a:hover:before
-  {
-    color:black;
-  }
-  
-/* ===== ABOUT ===== */
-  
-  #info > h1 {
+  /* ===== ABOUT ===== */
+  #info>h1 {
     text-align: left;
     font-size: 3.5em;
   }
-
-  #info > h1:after {
-    content:' ';
-    display:block;
+  #info>h1:after {
+    content: ' ';
+    display: block;
     width: 100%;
-    border:1px solid darkorange;
+    border: 1px solid darkorange;
   }
-
   #info {
     width: 100%;
   }
-  
-  #info > p {
+  #info>p {
     font-size: 1.9em;
     line-height: 1.4em;
     white-space: pre-line;
     text-align: left;
   }
-  #info > h2 {
+  #info>h2 {
     font-size: 3em;
     line-height: 1.4em;
     font-family: 'Heebo', sans-serif;
     text-align: left;
   }
-  #info > h3 {
+  #info>h3 {
     font-size: 1.8em;
     line-height: 1.4em;
     font-family: 'Heebo', sans-serif;
     text-align: center;
     margin-top: 0;
   }
-  
   #selfInfo {
     float: left;
     display: block;
     height: auto;
     width: 100%;
   }
-
-  #selfImage{
+  #selfImage {
     width: 100%;
     display: block;
     align-content: center;
   }
-  
-  #selfImage > img{
+  #selfImage>img {
     margin-top: 20px;
     width: 50%;
     align-content: center;
     height: auto;
   }
-  
   /* ===== PROJECT ===== */
-  
   .projWrapper1 {
     width: 100;
     padding-top: 5px;
     text-align: left;
     margin: 0;
   }
-  
   #project {
     padding: 0;
   }
-  
-   #columns {
-    -webkit-column-count:1;
+  #columns {
+    -webkit-column-count: 1;
     -moz-column-count: 1;
     column-count: 1;
     align-content: center;
     text-align: center;
-     margin: 0 auto;
+    margin: 0 auto;
   }
-  .carousel-caption > p{
+  .carousel-caption>p {
     font-size: 1.3em;
     text-shadow: 0, 0, 0 none;
     margin: 0, 0, 10px, 0;
   }
-  .carousel-caption > h3{
+  .carousel-caption>h3 {
     font-size: 2.3em;
     text-shadow: 0, 0, 0 none;
     margin: 10px, 0, 0, 0;
   }
-  
   #pg {
     width: 100%;
   }
-  
-  #pg > h1 {
+  #pg>h1 {
     width: auto;
     margin: 0;
     font-family: 'Heebo', sans-serif;
     font-size: 3.4em;
     padding-bottom: 3px;
   }
-  #pg > p {
+  #pg>p {
     font-size: 1.8em;
     line-height: 1.4em;
   }
-  #pg > h2 {
+  #pg>h2 {
     line-height: 1.2em;
     font-family: 'Heebo', sans-serif;
     font-size: 1.8em;
   }
-  
-  #pg > h1:after {
-    content:' ';
-    display:block;
+  #pg>h1:after {
+    content: ' ';
+    display: block;
     width: 100%;
-    border:2px solid darkorange;
+    border: 2px solid darkorange;
   }
   #pimg {
     width: 100%;
     padding-top: 10px;
     display: block;
     text-align: center;
-  } 
-  #pimg > img {
+  }
+  #pimg>img {
     box-shadow: 2px 2px 3px gray;
-  } 
-  #pimg > h1 {
+  }
+  #pimg>h1 {
     font-size: 1.7em;
     font-family: 'Heebo', sans-serif;
     color: black;
     padding-bottom: 10px;
-  } 
-  #pimg > h2 {
+  }
+  #pimg>h2 {
     font-size: 1.5em;
     font-family: 'Heebo', sans-serif;
     color: black;
-  } 
-  #pimg > h1 > a{
+  }
+  #pimg>h1>a {
     font-size: 1.3em;
     font-family: 'Heebo', sans-serif;
     text-decoration: none;
     color: black;
-  } 
-  #pimg > h1 >a:hover {
+  }
+  #pimg>h1>a:hover {
     color: darkorange;
-  } 
-  
+  }
   /* ===== CONTACT ===== */
-  
-   #contact {
+  #contact {
     min-height: 100%;
     padding-bottom: 80px;
-  }  
-  #contact > .container {
+  }
+  #contact>.container {
     padding: 100px 0 70px 0;
     text-align: center;
     min-height: 100%;
   }
-  
-  #contact > .container > h1{
+  #contact>.container>h1 {
     font-size: 3.2em;
     margin-bottom: 20px;
     color: #000000;
     text-shadow: 2px 2px #ff9933;
     font-family: 'Heebo', sans-serif;
   }
-  #contact > .container > h2{
+  #contact>.container>h2 {
     padding: 0px;
     margin: 0;
     line-height: 1.4em;
@@ -2356,37 +2244,24 @@ footer {
     font-size: 1em;
     margin: 0;
   }
-  
-  
   /* ===== FOOTER ===== */
-  
-  
   footer {
     margin: 0
   }
-  
-  #footer {
-    height: 40px;
-    align-content: center;
-    text-align: center;
-    margin: 20px 0 0 0;
+  .footerLinks>p {
+    font-size: 0.8em;
     font-family: 'Heebo', sans-serif;
-  }
-
-  #footer > li {
-    font-size: 1.4em;
     float: none;
     display: inline-block;
+    margin: 0;
+    padding: 3px;
   }
-  
-  #footer > li > a{
+  .footerLinks>p>a {
     text-decoration: none;
     color: black;
     padding-bottom: 3px;
-    position: relative;
   }
-  
-  #footer > li > a:before {
+  .footerLinks>p>a:before {
     content: "";
     position: absolute;
     width: 100%;
@@ -2400,12 +2275,21 @@ footer {
     -webkit-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
   }
-  
-  #footer > li > a:hover:before
-  {
-    color:darkorange;
+  .footerLinks>p>a:hover:before {
+    color: darkorange;
     visibility: visible;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
-  }  
+  }
+  .footerIcons {
+    margin-left: 5px;
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+  .footerIcons>a>img {
+    width: 30px;
+    height: auto;
+  }
 }
